@@ -60,7 +60,7 @@ public class SampleBlock extends Block implements IWaterLoggable {
     @Nonnull
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
         Vector3d offset = state.getOffset(worldIn, pos);
-        return VoxelShapes.create(0.2D, 0.0D, 0.2D, 0.8D, 0.2D, 0.8D).withOffset(offset.x, offset.y, offset.z);
+        return VoxelShapes.create(0.25D, 0.0D, 0.25D, 0.75D, 0.125D, 0.75D).withOffset(offset.x, offset.y, offset.z);
     }
 
     @Override

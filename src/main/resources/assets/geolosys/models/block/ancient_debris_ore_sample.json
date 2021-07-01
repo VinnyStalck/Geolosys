@@ -2,8 +2,6 @@
   "parent": "geolosys:block/ore_sample",
   "textures": {
     "particle": "minecraft:block/netherrack",
-    "ore": "geolosys:blocks/ancient_debris_ore",
-    "_ore": "minecraft:block/ancient_debris_side",
-    "stone": "minecraft:block/netherrack"
+    "ore": "geolosys:blocks/ancient_debris_ore"
   }
 }
